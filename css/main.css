@@ -346,6 +346,11 @@ html {
   margin: auto;
   margin-bottom: 16px;
 }
+@media (max-width: 767px) {
+  .product .qtySelector {
+    margin-top: 25px;
+  }
+}
 .product .qty-control {
   position: absolute;
   color: #6da42c;
