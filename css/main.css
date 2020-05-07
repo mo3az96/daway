@@ -346,11 +346,6 @@ html {
   margin: auto;
   margin-bottom: 16px;
 }
-@media (max-width: 767px) {
-  .product .qtySelector {
-    margin-top: 25px;
-  }
-}
 .product .qty-control {
   position: absolute;
   color: #6da42c;
@@ -395,11 +390,16 @@ html {
     order: 2;
     padding: 0 10px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 }
 .product .pro-desc-img {
   margin-bottom: 35px;
+}
+@media (max-width: 767px) {
+  .product .pro-desc-img {
+    margin-bottom: 17px;
+  }
 }
 .product .pro-desc-img img {
   width: auto;
