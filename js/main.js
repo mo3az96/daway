@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    $('.pre-loader').removeClass('pre-in');
+    // $('.pre-loader').removeClass('pre-in');
     $('.pre-loader').fadeOut("500", function () {
         $('body').css("overflow", "visible");
         $(this).remove();
