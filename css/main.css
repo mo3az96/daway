@@ -877,10 +877,16 @@ html[dir=ltr] .penfits-img {
   font-size: 18px;
   font-family: med;
   margin-left: 18px;
+  line-height: 30px;
 }
 html[dir=ltr] .penfit-item span {
   margin-left: 0;
   margin-right: 18px;
+}
+@media (max-width: 767px) {
+  .penfit-item span {
+    padding-top: 4px;
+  }
 }
 
 .bg-head {
@@ -960,6 +966,7 @@ html[dir=ltr] .penfit-item span {
 
 footer {
   padding: 65px 0 60px;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   footer {
