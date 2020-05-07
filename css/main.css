@@ -389,7 +389,8 @@ html {
   .product .pro-desc {
     order: 2;
     padding: 0 10px;
-    width: 50%;
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 .product .pro-desc-img {
@@ -407,12 +408,6 @@ html {
   font-size: 18px;
   font-family: med;
 }
-@media (max-width: 767px) {
-  .product .pro-desc-text {
-    height: 175px;
-  }
-}
-
 /*//////////////////////////////preloader//////////////////////////////*/
 .pre-loader {
   width: 100%;
@@ -825,14 +820,27 @@ html[dir=ltr] .user-anchor .mo-text {
   left: 0;
   top: 0;
 }
+html[dir=ltr] .penfits-img {
+  left: auto;
+  right: 0;
+  transform: scaleX(-1);
+}
 @media (max-width: 1199px) {
   .penfits-img {
     left: -10%;
+  }
+  html[dir=ltr] .penfits-img {
+    left: auto;
+    right: -10%;
   }
 }
 @media (max-width: 992px) {
   .penfits-img {
     left: -15%;
+  }
+  html[dir=ltr] .penfits-img {
+    left: auto;
+    right: -15%;
   }
 }
 @media (max-width: 767px) {
@@ -1140,7 +1148,7 @@ footer {
   .lang {
     position: absolute;
     top: 24px;
-    right: 25px;
+    right: 8px;
     left: auto;
     z-index: 99999;
     margin: 0;
