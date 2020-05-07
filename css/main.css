@@ -208,8 +208,14 @@ html {
 .main-slider .owl-nav button[class^=owl-].owl-next {
   left: 0;
 }
+.main-slider .owl-nav button[class^=owl-].owl-next span:before {
+  content: "";
+}
 .main-slider .owl-nav button[class^=owl-].owl-prev {
   right: 0;
+}
+.main-slider .owl-nav button[class^=owl-].owl-prev span:before {
+  content: "";
 }
 .main-slider .owl-nav button[class^=owl-]:hover {
   color: #333333;
